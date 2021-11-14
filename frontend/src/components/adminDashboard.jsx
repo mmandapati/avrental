@@ -11,7 +11,7 @@ class AdminDashboard extends Component {
   };
    componentWillMount() {
     console.log("entered here");
-    axios.get("http://localhost:3900/admindash").then(response=>{
+    axios.get("http://18.225.6.194:3900/admindash").then(response=>{
       console.log("userdata"+JSON.stringify(response));
       this.setState({
         userdata: response.data
