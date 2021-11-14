@@ -53,7 +53,7 @@ class SensorInfo extends Component {
 
   componentDidMount() {
     console.log("yoyoyoyo");
-    axios.get("http://localhost:3900/sensorinfo").then(response=>{
+    axios.get("http://18.225.6.194:3900/sensorinfo").then(response=>{
       console.log("hello entered here"+JSON.stringify(response));
       this.setState({
         time : response.data.Vehicle[5],
