@@ -1,4 +1,4 @@
 {
-  "apiUrl": "http://localhost:3900/api",
-  "socketUrl": "http://localhost:3900"
+  "apiUrl": "http://18.225.6.194:3900/api",
+  "socketUrl": "http://18.225.6.194:3900"
 }
