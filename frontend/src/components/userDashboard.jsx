@@ -70,7 +70,7 @@ class UserDashboard extends Component {
     var stringdata = JSON.stringify(data);
     console.log("data"+stringdata);
 
-    axios.post(`http://localhost:3900/statusupdate/${stringdata}`)
+    axios.post(`http://18.225.6.194:3900/statusupdate/${stringdata}`)
     .then(response=>{
       console.log("hello entered here"+JSON.stringify(response));
       setTimeout(function(){
